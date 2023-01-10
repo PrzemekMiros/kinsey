@@ -160,14 +160,11 @@ if (typeof window.kinsey === 'undefined') {
 			},
 			smoothScroll: { // more info https://github.com/idiotWu/smooth-scrollbar/tree/develop/docs
 				enabled: true,
-				damping: 0.1,
+				damping: 0.15,
 				renderByPixels: true,
 				continuousScrolling: false,
 				plugins: {
 					edgeEasing: true,
-					disableScroll: {
-						direction: 'x'
-					}
 				}
 			},
 			mobileBarFix: {

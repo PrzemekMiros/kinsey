@@ -1,0 +1,171 @@
+<section class="section section-grid pt-large pb-xlarge bg-light-2">
+    <div class="container">
+        <div class="row align-items-center mb-medium">
+            <div class="col-lg-8">
+                <h1
+                    class="xl mt-0 arts-split-text js-arts-split-text"
+                    data-arts-os-animation="true"
+                    data-arts-os-animation-name="animateText"
+                    data-arts-os-animation-params="{stagger: {amount: 0.3, from: 'left'}}"
+                    data-arts-split-text="lines,words,chars"
+                    data-arts-split-text-set="chars"
+                    data-arts-split-text-overflow-wrap="lines">Realizacje</h1>
+            </div>
+            <div class="col-lg-12 text-center mt-small">
+                <div class="filter js-filter" data-arts-os-animation="true" data-arts-os-animation-name="animateText">
+                    <div class="filter__inner">
+                        <div
+                            class="container-fluid no-gutters">
+                            <!-- items -->
+                            <div
+                                class="row justify-content-between">
+                                <!-- all (*) -->
+                                <div
+                                    class="col-lg-auto col-12 filter__item filter__item_active js-filter__item js-arts-cursor-highlight"
+                                    data-filter="*">
+                                    <div
+                                        class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
+                                        data-arts-split-text="lines, words"
+                                        data-arts-split-text-set="words"
+                                        data-arts-split-text-overflow-wrap="lines">
+                                        <span class="filter__item-label">Wszystkie</span>
+                                        <span class="block-counter__counter">*</span>
+                                    </div>
+                                </div>
+                                <!-- - all (*) -->
+                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".Strony-internetowe">
+                                    <div
+                                        class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
+                                        data-arts-split-text="lines, words"
+                                        data-arts-split-text-set="words"
+                                        data-arts-split-text-overflow-wrap="lines">
+                                        <span class="filter__item-label">Strony internetowe</span>
+                                        <span class="block-counter__counter">2</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".Sklepy-ecommerce">
+                                    <div
+                                        class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
+                                        data-arts-split-text="lines, words"
+                                        data-arts-split-text-set="words"
+                                        data-arts-split-text-overflow-wrap="lines">
+                                        <span class="filter__item-label">Sklepy ecommerce</span>
+                                        <span class="block-counter__counter">1</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".Pozycjonowanie">
+                                    <div
+                                        class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
+                                        data-arts-split-text="lines, words"
+                                        data-arts-split-text-set="words"
+                                        data-arts-split-text-overflow-wrap="lines">
+                                        <span class="filter__item-label">Pozycjonowanie </span>
+                                        <span class="block-counter__counter">1</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".Grafika">
+                                    <div
+                                        class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
+                                        data-arts-split-text="lines, words"
+                                        data-arts-split-text-set="words"
+                                        data-arts-split-text-overflow-wrap="lines">
+                                        <span class="filter__item-label">Projekty graficzne</span>
+                                        <span class="block-counter__counter">2</span>
+                                    </div>
+                                </div>
+                                <!-- - items -->
+                            </div>
+                            <!-- underline -->
+                            <div
+                                class="filter__underline js-filter__underline"
+                                data-arts-os-animation="true"
+                                data-arts-os-animation-name="animateHeadline"
+                                data-arts-os-animation-params="{transformOrigin: 'left center'}"></div>
+                            <!-- - underline -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="grid js-grid grid_fluid-2 grid_fancy">
+            <!-- sizer -->
+            <div class="grid__item grid__sizer js-grid__sizer grid__item_fluid-6-fancy grid__item_fluid-3 grid__item_desktop-6
+                grid__item_tablet-6 grid__item_mobile-12 "></div>
+            {% for post in collections.realizacje %}
+            <!-- item -->
+            <div class="grid__item js-grid__item grid__item_fluid-6-fancy grid__item_fluid-3 grid__item_desktop-6 grid__item_tablet-6
+                    grid__item_mobile-12 {{ post.data.category }}">
+                <div class="figure-project" data-arts-hover-class="hover-zoom-underline">
+                    <a
+                        class="figure-project__wrapper-img js-arts-cursor-no-highlight js-arts-parallax"
+                        href="{{ post.url }}"
+                        data-arts-hover="trigger"
+                        data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateMask"
+                         data-arts-os-animation-params="{direction: 'up'}"
+                        data-arts-parallax-factor-y="0.05"
+                        data-arts-cursor="true"
+                        data-arts-cursor-hide-native="true"
+                        data-arts-cursor-label="Zobacz"
+                        data-arts-cursor-scale="2.4"
+                        data-arts-cursor-color="#fff"
+                        data-arts-cursor-background-color="#ed4830">
+                        <div class="hover-zoom__inner">
+                            <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2">
+                                    <div class="js-arts-parallax__scrub w-100 h-100">
+                                        <div class="lazy-wrapper">
+                                            <div class="lazy"><img
+                                                    class="hover-zoom__zoom"
+                                                    src="#"
+                                                    data-src="{{ post.data.thumbnail }}"
+                                                    width="1620"
+                                                    height="1280"
+                                                    alt="{{ post.data.title }}"/> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="figure-project__content py-3" data-arts-os-animation="true" data-arts-os-animation-name="animateText">
+                        <a
+                            class="d-inline-block js-arts-cursor-no-highlight"
+                            href="{{ post.url }}"
+                            data-arts-hover="trigger"
+                            data-arts-cursor="true"
+                            data-arts-cursor-hide-native="true"
+                            data-arts-cursor-label="Zobacz"
+                            data-arts-cursor-scale="2.4"
+                            data-arts-cursor-color="#fff"
+                            data-arts-cursor-background-color="#ed4830">
+                            <h2
+                                class="h3 js-arts-split-text arts-split-text underline-hover__target"
+                                data-arts-split-text="lines"
+                                data-arts-split-text-set="lines"
+                                data-arts-split-text-overflow-wrap="lines">{{ post.data.title }}</h2>
+                        </a>
+                        <div
+                            class="figure-project__wrapper-meta arts-split-text js-arts-split-text"
+                            data-arts-split-text="lines, words"
+                            data-arts-split-text-set="words"
+                            data-arts-split-text-overflow-wrap="lines">
+                            <ul class="post-meta post-meta_mini post-meta_mini-small">
+                                <li>
+                                    <a href="{{ post.url }}">{{ post.data.title }}</a>
+                                    <div class="post-meta__divider"></div>
+                                </li>
+                                <li>
+                                    <a href="#">2022</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
