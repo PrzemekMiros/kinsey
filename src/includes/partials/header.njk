@@ -1,131 +1,162 @@
-      <!-- PAGE PRELOADER 
-      <div class="preloader preloader_header-menu-hidden mask-reveal" id="js-preloader" data-arts-theme-text="light" data-arts-preloader-logo="secondary">
-        <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
-          <div class="mask-reveal__layer mask-reveal__layer-2">
-            <div class="preloader__wrapper">
-              <div class="preloader__counter preloader__counter_started me-auto mt-auto underline js-preloader__counter">00%</div>
-              <div class="preloader__content ms-auto mt-auto js-preloader__content">
-                <div class="h6">Loading</div>
-              </div>
+<!-- PAGE PRELOADER <div class="preloader preloader_header-menu-hidden mask-reveal" id="js-preloader"
+data-arts-theme-text="light" data-arts-preloader-logo="secondary"> <div class="mask-reveal__layer mask-reveal__layer-1
+bg-dark-1">
+    <div class="mask-reveal__layer mask-reveal__layer-2">
+      <div class="preloader__wrapper">
+        <div class="preloader__counter preloader__counter_started me-auto mt-auto underline js-preloader__counter">00%</div>
+        <div class="preloader__content ms-auto mt-auto js-preloader__content">
+          <div class="h6">Loading</div>
+        </div>
+      </div>
+    </div>
+</div> </div>
+- PAGE PRELOADER -->
+<header
+  class="header header_fixed container-fluid js-header-sticky"
+  id="page-header"
+  data-arts-theme-text="dark"
+  data-arts-header-logo="primary"
+  data-arts-header-sticky-logo="primary"
+  data-arts-header-sticky-theme-text="dark"
+  data-arts-header-overlay-theme-text="light">
+  <!-- top bar -->
+  <div class="header__container header__controls">
+    <div
+      class="row justify-content-between align-items-center">
+      <!-- logo -->
+      <div class="col-auto header__col header__col-left">
+        <a class="logo" href="index.html">
+          <div class="logo__wrapper-img">
+            <img
+              class="logo__img-primary"
+              src="assets/img/general/logo/logo-dark.png"
+              alt="Kinsey HTML5 Template"
+              width="52"
+              height="52"/>
+            <img
+              class="logo__img-secondary"
+              src="assets/img/general/logo/logo-light.png"
+              alt="Kinsey HTML5 Template"
+              width="52"
+              height="52"/>
+          </div>
+        </a>
+      </div>
+      <!-- - logo -->
+      <!-- burger icon -->
+      <div class="col-auto header__col d-flex align-items-center">
+        <div
+          class="ms-auto header__burger"
+          id="js-burger"
+          data-arts-cursor="data-arts-cursor"
+          data-arts-cursor-scale="1.7"
+          data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+          data-arts-cursor-hide-native="true">
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+          <!-- burger labels -->
+          <div class="header__label header__burger-label">
+            <div class="header__label-burger header__label-burger_inner header__label-burger_closed-open">Menu</div>
+            <div class="header__label-burger header__label-burger_inner header__label-burger_closed-hover">Open</div>
+            <div class="header__label-burger header__label-burger_inner header__label-burger_opened-open">Close</div>
+            <div class="header__label-burger header__label-burger_inner header__label-burger_opened-hover">Close</div>
+          </div>
+          <!-- - burger labels -->
+        </div>
+      </div>
+      <!-- - burger icon -->
+      <!-- "back" button for submenu nav -->
+      <div
+        class="header__overlay-menu-back"
+        id="js-submenu-back"
+        data-arts-cursor="data-arts-cursor"
+        data-arts-cursor-scale="1.7"
+        data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+        data-arts-cursor-hide-native="true">
+        <i class="material-icons">arrow_back</i>
+        <div class="header__label header__label_status">
+          <div class="js-header-label-submenu"></div>
+        </div>
+        <div class="header__label header__label_opened-back">Back</div>
+      </div>
+      <!-- - "back" button for submenu nav -->
+      <!-- slider label -->
+      <div class="header__overlay-menu-info header__label header__label_side">Selected Projects</div>
+      <!-- - slider label -->
+    </div>
+  </div>
+  <!-- - top bar -->
+  <!-- fullscreen overlay container -->
+  <div class="header__wrapper-overlay-menu" data-arts-theme-text="light">
+    <div class="mask-reveal w-100 h-100">
+      <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
+        <div class="mask-reveal__layer mask-reveal__layer-2">
+          <div
+            class="row align-items-center h-100">
+            <!-- menu & bottom widgets -->
+            <div
+              class="header__menu-column col-lg-9 h-100 d-flex flex-column position-relative">
+              <!-- top gradient-->
+              <div class="header__menu-gradient header__menu-gradient_top"></div>
+              <!-- - top gradient-->
+              <!-- virtual scrolling container -->
+                <div class="header__wrapper-menu">
+                  <ul class="menu-overlay js-menu-overlay">
+                    <li>
+                      <a href="#" data-pjax-link="overlayMenu">
+                        <div
+                          class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                          data-arts-split-text="lines,words"
+                          data-arts-split-text-set="lines"
+                          data-arts-split-text-overflow-wrap="lines">
+                          <span class="menu-overlay__subheading small mb-1">01&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Fullscreen &
+                            Halfscreen</span>
+                          <div class="menu-overlay__heading h2">Sliders</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" data-pjax-link="overlayMenu">
+                        <div
+                          class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                          data-arts-split-text="lines,words"
+                          data-arts-split-text-set="lines"
+                          data-arts-split-text-overflow-wrap="lines">
+                          <span class="menu-overlay__subheading small mb-1">01&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Fullscreen &
+                            Halfscreen</span>
+                          <div class="menu-overlay__heading h2">Sliders</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" data-pjax-link="overlayMenu">
+                        <div
+                          class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                          data-arts-split-text="lines,words"
+                          data-arts-split-text-set="lines"
+                          data-arts-split-text-overflow-wrap="lines">
+                          <span class="menu-overlay__subheading small mb-1">01&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Fullscreen &
+                            Halfscreen</span>
+                          <div class="menu-overlay__heading h2">Sliders</div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              <!-- - virtual scrolling container -->
+              <!-- bottom gradient-->
+              <div class="header__menu-gradient header__menu-gradient_bottom"></div>
+              <!-- - bottom gradient-->
             </div>
+            <!-- - menu & bottom widgets -->
           </div>
         </div>
       </div>
-   - PAGE PRELOADER -->
-
-      <!-- PAGE HEADER -->
-      <header class="header header_fixed container-fluid js-header-sticky header_menu-right" id="page-header" data-arts-theme-text="dark" data-arts-header-sticky-theme="bg-light-1" data-arts-header-logo="primary" data-arts-header-sticky-logo="primary" data-arts-header-sticky-theme-text="dark" data-arts-header-overlay-theme-text="light">
-        <!-- top bar -->
-        <div class="header__container header__controls">
-          <div class="row justify-content-between align-items-center">
-            <!-- logo -->
-            <div class="col-auto header__col header__col-left"><a class="logo" href="index.html">
-                <div class="logo__wrapper-img">
-                  <img class="logo__img-primary" src="assets/img/general/logo/kinsey-dark.svg" alt="Kinsey HTML5 Template" width="52" height="19"/>
-                  <img class="logo__img-secondary" src="assets/img/general/logo/kinsey-light.svg" alt="Kinsey HTML5 Template" width="52" height="19"/>
-                </div></a>
-            </div>
-            <!-- - logo -->
-            <!-- desktop menu-->
-            <div class="col-auto header__col d-none d-lg-block">
-              <ul class="menu js-menu">
-                <li>
-                  <a href="#">Sliders</a>
-                </li>
-                <li>
-                  <a href="#">Sliders</a>
-                </li>
-                                <li>
-                  <a href="#">Sliders</a>
-                </li>
-                                <li>
-                  <a href="#">Sliders</a>
-                </li>
-              </ul>
-            </div>
-            <!-- - desktop menu -->
-            <!-- burger icon -->
-            <div class="col-auto header__col d-flex align-items-center d-lg-none">
-              <div class="ms-auto header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
-                <div class="header__burger-line"></div>
-                <div class="header__burger-line"></div>
-                <!-- burger labels -->
-                <div class="header__label header__burger-label">
-                  <div class="header__label-burger header__label-burger_inner header__label-burger_closed-open">Menu</div>
-                  <div class="header__label-burger header__label-burger_inner header__label-burger_closed-hover">Open</div>
-                  <div class="header__label-burger header__label-burger_inner header__label-burger_opened-open">Close</div>
-                  <div class="header__label-burger header__label-burger_inner header__label-burger_opened-hover">Close</div>
-                </div>
-                <!-- - burger labels -->
-              </div>
-            </div>
-            <!-- - burger icon -->
-            <!-- "back" button for submenu nav -->
-            <div class="header__overlay-menu-back" id="js-submenu-back" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"><i class="material-icons">arrow_back</i>
-              <div class="header__label header__label_status">
-                <div class="js-header-label-submenu"></div>
-              </div>
-              <div class="header__label header__label_opened-back">Back</div>
-            </div>
-            <!-- - "back" button for submenu nav -->
-          </div>
-        </div>
-        <!-- - top bar -->
-        <!-- fullscreen overlay container -->
-        <div class="header__wrapper-overlay-menu" data-arts-theme-text="light">
-          <div class="mask-reveal w-100 h-100">
-            <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
-              <div class="mask-reveal__layer mask-reveal__layer-2">
-                <div class="row align-items-center h-100">
-                  <!-- menu & bottom widgets -->
-                  <div class="header__menu-column col-lg-7 order-lg-2 h-100 d-flex flex-column position-relative bg-dark-2">
-                    <!-- top gradient-->
-                    <div class="header__menu-gradient header__menu-gradient_top"></div>
-                    <!-- - top gradient-->
-                    <!-- virtual scrolling container -->
-                    <div class="header__scroll-container js-header-smooth-scroll-container overflow pointer-events-auto">
-                      <div class="header__wrapper-menu">
-                        <ul class="menu-overlay js-menu-overlay">
-                          <li><a href="#" data-pjax-link="overlayMenu">
-                              <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">01&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Fullscreen & Halfscreen</span>
-                                <div class="menu-overlay__heading h2">Sliders</div>
-                              </div></a>
-                          </li>
-                          <li><a href="#" data-pjax-link="overlayMenu">
-                              <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">01&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Fullscreen & Halfscreen</span>
-                                <div class="menu-overlay__heading h2">Sliders</div>
-                              </div></a>
-                          </li>
-                                                    <li><a href="#" data-pjax-link="overlayMenu">
-                              <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">01&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Fullscreen & Halfscreen</span>
-                                <div class="menu-overlay__heading h2">Sliders</div>
-                              </div></a>
-                          </li>
-                                                    <li><a href="#" data-pjax-link="overlayMenu">
-                              <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">01&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Fullscreen & Halfscreen</span>
-                                <div class="menu-overlay__heading h2">Sliders</div>
-                              </div></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <!-- - virtual scrolling container -->
-                    <!-- bottom gradient-->
-                    <div class="header__menu-gradient header__menu-gradient_bottom"></div>
-                    <!-- - bottom gradient-->
-                  </div>
-                  <!-- - menu & bottom widgets -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- - fullscreen overlay container // - fullscreen overlay container 
-        -->
-        <!-- - fullscreen overlay container -->
-      </header>
-      <!-- - PAGE HEADER -->
-      <!-- PAGE MAIN CONTAINER -->
-      <div class="js-smooth-scroll" id="page-wrapper" data-barba="container">
-        <!-- PAGE CONTENT -->
-        <main class="page-wrapper__content">
+    </div>
+  </div>
+</header>
+<!-- PAGE MAIN CONTAINER -->
+<div
+  class="js-smooth-scroll" id="page-wrapper" data-barba="container">
+  <!-- PAGE CONTENT -->
+  <main class="page-wrapper__content">

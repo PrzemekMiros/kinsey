@@ -8777,8 +8777,6 @@ select {
   height: 100%;
   display: flex !important;
   flex-direction: column;
-  overflow-x: hidden;
-  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 .header__wrapper-menu .scroll-content {
@@ -8973,8 +8971,7 @@ select {
   left: 0;
   width: 100%;
   padding-top: 15px;
-  padding-bottom: 15px;
-  box-shadow: 0px 0px 30px 0px rgba(24, 24, 24, 0.05);
+  padding-bottom: 15px
 }
 .header_sticky[data-arts-header-sticky-logo=primary] .logo__img-primary {
   opacity: 1;
@@ -9279,8 +9276,6 @@ select {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
   margin: auto 0;
   z-index: 50;
 }
