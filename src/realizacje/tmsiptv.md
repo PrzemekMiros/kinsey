@@ -1,11 +1,13 @@
 ---
-title: TMS IPTV
-description: Operator telewizji kablowej
+client: TMS IPTV
+title: Operator telewizji kablowej
+description: Strona wizytówka dla operatora telewizji kablowej. Statyczna strona w HTML, CSS i JS. 
 date: 2021-01-23
 author: Przemek Miros
-thumbnail: /assets/img/mockups/tms.jpg
+thumbnail: /assets/img/mockups/m-bianca.png
 category: Strony-internetowe
 ---
+
 ## Operator telewizji kablowej
 
 Strona wizytówka dla operatora telewizji kablowej. Statyczna strona w HTML, CSS i JS. 

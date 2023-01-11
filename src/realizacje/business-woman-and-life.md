@@ -1,10 +1,11 @@
 ---
-title: Business Woman and Life
-description: Portal kobiet biznesu
-date: 2022-09-15
+client: Business Woman and Life
+title: Portal kobiet biznesu
+description: Serwis dla czasopisma Business Woman and Life. Indywidualny projekt graficzny i dedykowany motyw na Wordpressa. 
+date: 2022-11-15
 author: Przemek
-thumbnail: /assets/img/mockups/business.jpg
-category: Sklepy-ecommerce
+thumbnail: /assets/img/mockups/m-business.jpg
+category: sklepy
 ---
 
 ## Portal kobiet biznesu

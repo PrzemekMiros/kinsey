@@ -1,10 +1,11 @@
 ---
-title: Call Your Soul
-description: Studio masażu i terapii umysłu
-date: 2022-11-27
+client: Call Your Soul
+title: Studio masażu i terapii umysłu
+description: Strona internetowa dla studia masażu i terapii z umysłem. Indywidualny projekt, zaawansowane animacje i przejścia. Optymalizacja pod wyszukiwarki. Strona statyczna bez CMS'a.
+date: 2022-05-27
 author: Przemek
-thumbnail: /assets/img/mockups/bianca.jpg
-category: Strony internetowe
+thumbnail: /assets/img/mockups/m-bianca.png
+category: strony
 ---
 
 ## Salon masażu i terapii z umysłem

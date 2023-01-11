@@ -1,10 +1,11 @@
 ---
-title: Gaszyn Park
-description: Osiedle dla wymagających
+client: Gaszyn Park
+title: Osiedle dla wymagających
+description: Strona internetowa dla developera. Indywidualny projekt graficzny i kodowanie.  
 date: 2022-04-20
 author: Przemek
-thumbnail: /assets/img/mockups/gaszyn.jpg
-category: Strony internetowe
+thumbnail: /assets/img/mockups/m-bianca.png
+category: strony
 ---
 
 ## Osiedle dla wymagających

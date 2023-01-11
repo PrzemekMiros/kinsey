@@ -1,4 +1,4 @@
-<section class="section section-slider-images" id="portfolio">
+<section class="section section-content section-slider-images pt-medium" id="portfolio">
     <div class="container">
         <div class="slider slider-images js-slider-images">
             <div
@@ -15,12 +15,12 @@
                 data-touch-ratio="2">
                 <div
                     class="swiper-wrapper">
-                    {% for post in collections.realizacje.slice(0,4) %}
+                    {% for post in collections.realizacje.slice(0,3) %}
                     <!-- item -->
                     <div class="swiper-slide slider-images__slide overflow">
                         <div class="row flex-md-row-reverse">
                             <div
-                                class="col-md-7 mask-reveal overflow"
+                                class="col-md-6 mask-reveal overflow"
                                 data-arts-os-animation="true"
                                 data-arts-os-animation-name="animateMask"
                                 data-arts-os-animation-params="{direction: 'up'}">
@@ -29,7 +29,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5 pt-medium">
+                            <div class="col-md-6 pt-medium">
                                 <section class="section section-content">
                                 <div
                                     class="section-content__content content js-arts-split-text arts-split-text"
@@ -40,9 +40,7 @@
                                     data-arts-split-text-set="lines"
                                     data-arts-split-text-overflow-wrap="lines">
                                     <h2>{{ post.data.title }}</h2>
-                                    <p>We invest in bespoke pieces for your home so your home really reflects your personal style. It’s really important
-                                        that there is a synergy between the design of your home and your tastes.</p>
-                                    <p>Use securing confined his shutters. Delightful as he it acceptance an solicitude discretion reasonably.</p>
+                                    <p>{{ post.data.description }}</p>
                                 </div>
                                 <div
                                     class="col-auto section-content__wrapper-button my-5"
@@ -80,7 +78,7 @@
                 data-arts-os-animation-name="animateJump">
                 <div
                     class="swiper-wrapper">
-                    {% for post in collections.realizacje.slice(0,4) %}
+                    {% for post in collections.realizacje.slice(0,3) %}
                     <!-- caption -->
                     <div class="swiper-slide pt-3 js-arts-cursor-highlight">
                         <div class="slider-images__caption h6">01&nbsp;&nbsp;/&nbsp;&nbsp;{{ post.data.title }}</div>
@@ -94,8 +92,7 @@
             <div
                 class="slider__arrow slider__arrow_absolute slider__arrow_left js-slider__arrow-prev"
                 data-arts-os-animation="true"
-                data-arts-os-animation-name="animateJump"
-                data-arts-os-animation-params="{x: -30, y: 0}">
+                data-arts-os-animation-name="animateJump">
                 <div
                     class="slider__arrow material-icons js-slider__arrow-prev"
                     data-arts-cursor="data-arts-cursor"
@@ -106,8 +103,7 @@
             <div
                 class="slider__arrow slider__arrow_absolute slider__arrow_right js-slider__arrow-next"
                 data-arts-os-animation="true"
-                data-arts-os-animation-name="animateJump"
-                data-arts-os-animation-params="{x: 30, y: 0}">
+                data-arts-os-animation-name="animateJump">
                 <div
                     class="slider__arrow material-icons js-slider__arrow-next"
                     data-arts-cursor="data-arts-cursor"

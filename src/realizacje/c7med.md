@@ -1,10 +1,11 @@
 ---
-title: C7Med
-description: Centrum Rehabilitacji
+client: C7Med
+title: Centrum Rehabilitacji
+description: Strona internetowa dla centrum rehabilitacji w Pruszczu Gdańskim. Indywidualny projekt graficzny. System zarządzania treścią Wordpress.
 date: 2020-11-20
 author: Przemek Miros
-thumbnail: /assets/img/mockups/c7med.jpg
-category: Strony internetowe
+thumbnail: /assets/img/mockups/m-bianca.png
+category: strony
 ---
 
 ## Centrum Rehabilitacji

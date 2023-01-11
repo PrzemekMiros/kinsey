@@ -1,10 +1,11 @@
 ---
-title: MasterMatch.online
-description: Klub networkingowy
+client: MasterMatch.online
+title: Klub networkingowy
+description: Landing page dla klubu networkingowego. Według dostarczonego projektu graficznego (Figma). System zarządzania treścią Wordpress. 
 date: 2022-05-11
 author: Przemek Miros
-thumbnail: /assets/img/mockups/master.jpg
-category: Strony internetowe
+thumbnail: /assets/img/mockups/m-master.png
+category: strony
 ---
 
 ## Klub networkingowy

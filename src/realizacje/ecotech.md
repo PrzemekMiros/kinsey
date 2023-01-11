@@ -1,11 +1,13 @@
 ---
-title: Eco Tech Group
-description: Dystrybutor rur i konstrukcji stalowych
-date: 2021-02-19
+client: Eco Tech Group
+title: Dystrybutor rur stalowych
+description: Wykonana wedłu dostarczonego projektu graficznego. Oparta na systemie zarządzania treścią Wordpress. Katalog produktów z intuicyjna wyszukiwarką i filtrowaniem. 
+date: 2023-01-19
 author: Przemek
-thumbnail: /assets/img/mockups/ecotech.jpg
-category: Strony internetowe
+thumbnail: /assets/img/mockups/m-eco.png
+category: strony
 ---
+
 ## Dystrybutor rur stalowych
 
 Strona internetowa dla dystrybutora rur stalowych. Wykonana wedłu dostarczonego projektu graficznego. Oparta na systemie zarządzania treścią Wordpress. Katalog produktów z intuicyjna wyszukiwarką i filtrowaniem. 
