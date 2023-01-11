@@ -155,8 +155,8 @@ if (typeof window.kinsey === 'undefined') {
 				arrows: {
 					distance: 45
 				},
-				trailing: 8,
-				animationDuration: 0.25
+				trailing: 1,
+				animationDuration: 0.3
 			},
 			smoothScroll: { // more info https://github.com/idiotWu/smooth-scrollbar/tree/develop/docs
 				enabled: true,
