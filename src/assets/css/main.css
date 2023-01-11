@@ -981,7 +981,7 @@ a:hover {
 }
 
 .color-accent-1 {
-  color: var(--color-accent-1);
+  color: var(--color-accent-1)!important
 }
 
 /*!========================================================================
@@ -6189,6 +6189,11 @@ body.elementor-editor-active [data-arts-os-animation] {
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1/1;
 }
 
 .slider__wrapper-button {
