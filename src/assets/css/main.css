@@ -980,6 +980,10 @@ a:hover {
   background-color: var(--color-accent-2);
 }
 
+.color-accent-1 {
+  color: var(--color-accent-1);
+}
+
 /*!========================================================================
  * 11. Counter
  * ======================================================================!*/
@@ -8544,7 +8548,7 @@ select {
  * ======================================================================!*/
 .header {
   pointer-events: none;
-  padding-top: calc(var(--gutter-vertical) / 2.5);
+  padding-top: 35px;
 }
 .header a, .header select, .header input {
   pointer-events: initial;
@@ -9373,8 +9377,7 @@ select {
 
 @media screen and (max-width: 767px) {
   .menu-overlay {
-    display: block;
-    margin-top: 0;
+    display: block
   }
 
   .menu-overlay > li {
