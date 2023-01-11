@@ -1042,7 +1042,7 @@ a:hover {
  * 12. Cursor
  * ======================================================================!*/
 .arts-cursor {
-  color: #f27461;
+  color: var(--color-accent-1);
   display: none;
 }
 
@@ -10423,7 +10423,7 @@ select {
   right: -25%;
   width: 100%;
   height: 100%;
-  opacity: .1;
+  opacity: .05
 }
 
 .section-intro-bg img {
@@ -10446,4 +10446,23 @@ select {
   width: 85px;
   height: 85px;
   border-radius: 50%;
+}
+
+
+.brief {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  animation: fadeIn .6s linear forwards;
+  z-index: 999;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
 }
