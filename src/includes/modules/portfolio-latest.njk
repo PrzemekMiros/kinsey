@@ -1,0 +1,80 @@
+<section class="section section-slider-images pb-large">
+    <div class="slider slider-images js-slider-images">
+        <div
+            class="slider-images__slider swiper-container container js-slider-images__slider"
+            data-autoplay-enabled="true"
+            data-autoplay-delay="6000"
+            data-centered-slides="false"
+            data-slides-per-view="3" 
+            data-slides-per-view-tablet="2" 
+            data-slides-per-view-mobile="1" 
+            data-drag-mouse="true"
+            data-drag-cursor="true"
+            data-drag-label="Drag"
+            data-drag-hide-cursor="true"
+            data-drag-class="slider-images_scale-up"
+            data-keyboard-enabled="true"
+            data-touch-ratio="2">
+            <div
+                class="swiper-wrapper">
+                {% for post in collections.realizacje.slice(0,9) %}
+                <!-- item -->
+                <div class="swiper-slide slider-images__slide overflow">
+                    <div class="row flex-md-row-reverse">
+                        <div
+                            class="col-12 mask-reveal overflow mb-4"
+                            data-arts-os-animation="true"
+                            data-arts-os-animation-name="animateMask"
+                            data-arts-os-animation-params="{direction: 'up'}">
+                            <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2">
+                                    <img class="swiper-lazy" src="#" data-src="{{ post.data.thumbnail }}" width="354" height="334" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <section class="section section-content">
+                            <div
+                                class="section-content__content content js-arts-split-text arts-split-text"
+                                data-arts-os-animation="true"
+                                data-arts-os-animation-name="animateText"
+                                data-arts-os-animation-params="{stagger: {amount: 0.3, from: 'left'}}"
+                                data-arts-split-text="lines"
+                                data-arts-split-text-set="lines"
+                                data-arts-split-text-overflow-wrap="lines">
+                                <div class="section-content__subline h6 color-accent-1">Strony internetowe </div>
+                                <h2 class="h4">{{ post.data.title }}</h2>
+                            </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <!-- slider ARROWS -->
+        <div
+            class="slider__arrow slider__arrow_absolute slider__arrow_left js-slider__arrow-prev"
+            data-arts-os-animation="true"
+            data-arts-os-animation-name="animateJump">
+            <div
+                class="slider__arrow material-icons js-slider__arrow-prev"
+                data-arts-cursor="data-arts-cursor"
+                data-arts-cursor-scale="1.7"
+                data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
+        </div>
+        <div
+            class="slider__arrow slider__arrow_absolute slider__arrow_right js-slider__arrow-next"
+            data-arts-os-animation="true"
+            data-arts-os-animation-name="animateJump">
+            <div
+                class="slider__arrow material-icons js-slider__arrow-next"
+                data-arts-cursor="data-arts-cursor"
+                data-arts-cursor-scale="1.7"
+                data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
+        </div>
+        <!-- - slider ARROWS -->
+    </div>
+</section>
