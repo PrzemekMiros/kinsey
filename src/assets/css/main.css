@@ -6918,7 +6918,7 @@ h5, .h5 {
 
 h6, .h6, .breadcrumbs {
   font-family: var(--font-primary);
-  font-weight: 500;
+  font-weight: 700;
   line-height: var(--h6-line-height);
   font-size: calc(var(--h6-min-font-size) * 1px);
   color: var(--h6-color-dark);
@@ -10444,7 +10444,7 @@ select {
   margin-top: 8px;
   margin-right: 45px;
   width: 85px;
-  height: 85px;
+  height: auto;
   border-radius: 50%;
 }
 
