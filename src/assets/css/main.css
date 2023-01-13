@@ -6189,6 +6189,7 @@ body.elementor-editor-active [data-arts-os-animation] {
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
+  width: 100%;
 }
 
 .slider__wrapper-button {
@@ -6937,7 +6938,7 @@ h6, .h6, .breadcrumbs {
 p {
   margin-top: 1em;
   margin-bottom: 1em;
-  font-weight: 400;
+  font-weight: 300;
   font-size: calc(var(--paragraph-min-font-size) * 1px);
   line-height: var(--paragraph-line-height);
   letter-spacing: calc(var(--paragraph-letter-spacing) * 1px);
@@ -6955,7 +6956,7 @@ p {
 }
 
 .paragraph {
-  font-weight: 400;
+  font-weight: 300;
   font-size: calc(var(--paragraph-min-font-size) * 1px);
   line-height: var(--paragraph-line-height);
   letter-spacing: calc(var(--paragraph-letter-spacing) * 1px);

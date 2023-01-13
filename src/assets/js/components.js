@@ -143,8 +143,8 @@ if (typeof window.kinsey === 'undefined') {
 					overlayMenuOpen: 1.0,
 					overlayMenuClose: 1.5,
 					preloader: 1.0,
-					ajaxFlyingImageTransition: 1.0,
-					ajaxCurtainTransition: 1.0
+					ajaxFlyingImageTransition: 1.5,
+					ajaxCurtainTransition: 1.5
 				}
 			},
 			cursorFollower: {
@@ -155,8 +155,8 @@ if (typeof window.kinsey === 'undefined') {
 				arrows: {
 					distance: 45
 				},
-				trailing: 1,
-				animationDuration: 0.3
+				trailing: 8,
+				animationDuration: 0.2
 			},
 			smoothScroll: { // more info https://github.com/idiotWu/smooth-scrollbar/tree/develop/docs
 				enabled: true,
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 		setTimeout(() => {
 			window.kinsey.loading.finish();
-		}, 1200);
+		}, 800);
 	}
 
 });
