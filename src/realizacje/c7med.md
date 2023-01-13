@@ -5,7 +5,7 @@ description: Strona internetowa dla centrum rehabilitacji w Pruszczu Gdańskim. 
 date: 2020-11-20
 author: Przemek Miros
 thumbnail: /assets/img/mockups/m-egp.png
-category: strony
+category: Strona internetowa
 ---
 
 ## Centrum Rehabilitacji

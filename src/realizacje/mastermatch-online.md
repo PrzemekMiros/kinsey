@@ -5,7 +5,7 @@ description: Landing page dla klubu networkingowego. Według dostarczonego proje
 date: 2022-05-11
 author: Przemek Miros
 thumbnail: /assets/img/mockups/m-master.png
-category: strony
+category: Landing page
 ---
 
 ## Klub networkingowy

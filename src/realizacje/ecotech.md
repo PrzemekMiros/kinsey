@@ -5,7 +5,7 @@ description: Wykonana wedłu dostarczonego projektu graficznego. Oparta na syste
 date: 2023-01-19
 author: Przemek
 thumbnail: /assets/img/mockups/m-eco.png
-category: strony
+category: Strona internetowa
 ---
 
 ## Dystrybutor rur stalowych

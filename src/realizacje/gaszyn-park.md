@@ -5,7 +5,7 @@ description: Strona internetowa dla developera. Indywidualny projekt graficzny i
 date: 2022-04-20
 author: Przemek
 thumbnail: /assets/img/mockups/m-egp.png
-category: strony
+category: Landing page
 ---
 
 ## Osiedle dla wymagających

@@ -5,7 +5,7 @@ description: Strona wizytówka dla operatora telewizji kablowej. Statyczna stron
 date: 2021-01-23
 author: Przemek Miros
 thumbnail: /assets/img/mockups/m-egp.png
-category: Strony-internetowe
+category: Strona internetowa
 ---
 
 ## Operator telewizji kablowej

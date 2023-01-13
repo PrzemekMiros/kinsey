@@ -5,7 +5,7 @@ description: Strona internetowa dla firmy zajmującej się kolejowymi robotami b
 date: 2019-09-20
 author: Przemek
 thumbnail: /assets/img/mockups/m-egp.png
-category: strony
+category: Strona internetowa
 ---
 
 ## Kolejowe roboty budowlane

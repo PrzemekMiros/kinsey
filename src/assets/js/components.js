@@ -222,6 +222,7 @@ function initComponents({
 	scrollToHashElement = true
 }) {
 
+
 	const
 		$smoothScrollContainer = container.filter('.js-smooth-scroll'),
 		$sectionMasthead = scope.find('.section-masthead:not(.d-none):not(.js-cancel-init)'),
@@ -445,6 +446,7 @@ function initComponents({
 	if (scrollToHashElement) {
 		Scroll.scrollToAnchorFromHash();
 	}
+
 }
 
 /**

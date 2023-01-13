@@ -5,7 +5,7 @@ description: Strona i sklep interentowy dla producenta nanokoloidów. Systemem z
 date: 2023-01-21
 author: Przemek
 thumbnail: /assets/img/mockups/m-egp.png
-category: sklepy
+category: Sklep internetowy
 ---
 
 ## Producent nanokoloidów

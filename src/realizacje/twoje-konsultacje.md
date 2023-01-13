@@ -5,7 +5,7 @@ description: Platforma konsultingowa. Strona wykonana według projektu dostarczo
 date: 2022-02-20
 author: Przemek Miros
 thumbnail: /assets/img/mockups/m-egp.png
-category: Strony-internetowe
+category: Serwis internetowy
 ---
 
 ## Platforma konsultingowa

@@ -5,7 +5,7 @@ description: Strona internetowa dla studia masażu i terapii z umysłem. Indywid
 date: 2022-05-27
 author: Przemek
 thumbnail: /assets/img/mockups/m-egp.png
-category: strony
+category: Strona internetowa
 ---
 
 ## Salon masażu i terapii z umysłem

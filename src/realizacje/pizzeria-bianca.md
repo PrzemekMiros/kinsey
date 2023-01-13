@@ -5,7 +5,7 @@ description: Statyczna strona internetowa dla pizzerii. Projekt graficzny i kodo
 date: 2022-08-07
 author: Przemek
 thumbnail: /assets/img/mockups/m-egp.png
-category: Strony internetowe
+category: Landing page
 ---
 
 ## Pizzeria włoska z dostawą

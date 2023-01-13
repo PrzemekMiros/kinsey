@@ -5,7 +5,7 @@ description: Strona internetowa dla producenta konstrukcji stalowych. Indywidual
 date: 2022-02-08
 author: Przemek Miros
 thumbnail: /assets/img/mockups/m-egp.png
-category: Strony-internetowe
+category: Strona internetowa
 ---
 
 ## Producent konstrukcji stalowych

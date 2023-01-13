@@ -5,7 +5,7 @@ description: Serwis dla czasopisma Business Woman and Life. Indywidualny projekt
 date: 2022-11-15
 author: Przemek
 thumbnail: /assets/img/mockups/m-business.jpg
-category: sklepy
+category: Serwis internetowy
 ---
 
 ## Portal kobiet biznesu

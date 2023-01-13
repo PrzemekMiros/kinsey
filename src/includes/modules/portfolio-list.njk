@@ -33,17 +33,27 @@
                                     </div>
                                 </div>
                                 <!-- - all (*) -->
-                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".Strony-internetowe">
+                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".strona-internetowa">
                                     <div
                                         class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
                                         data-arts-split-text="lines, words"
                                         data-arts-split-text-set="words"
                                         data-arts-split-text-overflow-wrap="lines">
                                         <span class="filter__item-label">Strony internetowe</span>
+                                        <span class="block-counter__counter">6</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".serwis-internetowy">
+                                    <div
+                                        class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
+                                        data-arts-split-text="lines, words"
+                                        data-arts-split-text-set="words"
+                                        data-arts-split-text-overflow-wrap="lines">
+                                        <span class="filter__item-label">Serwisy internetowe</span>
                                         <span class="block-counter__counter">2</span>
                                     </div>
                                 </div>
-                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".Sklepy-ecommerce">
+                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".sklep-internetowy">
                                     <div
                                         class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
                                         data-arts-split-text="lines, words"
@@ -53,24 +63,14 @@
                                         <span class="block-counter__counter">1</span>
                                     </div>
                                 </div>
-                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".Pozycjonowanie">
+                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".landing-page">
                                     <div
                                         class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
                                         data-arts-split-text="lines, words"
                                         data-arts-split-text-set="words"
                                         data-arts-split-text-overflow-wrap="lines">
-                                        <span class="filter__item-label">Pozycjonowanie </span>
-                                        <span class="block-counter__counter">1</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-auto col-12 filter__item js-filter__item js-arts-cursor-highlight" data-filter=".Grafika">
-                                    <div
-                                        class="filter__item-inner h6 block-counter arts-split-text js-arts-split-text"
-                                        data-arts-split-text="lines, words"
-                                        data-arts-split-text-set="words"
-                                        data-arts-split-text-overflow-wrap="lines">
-                                        <span class="filter__item-label">Projekty graficzne</span>
-                                        <span class="block-counter__counter">2</span>
+                                        <span class="filter__item-label">Landing page</span>
+                                        <span class="block-counter__counter">3</span>
                                     </div>
                                 </div>
                                 <!-- - items -->
@@ -95,7 +95,7 @@
             {% for post in collections.realizacje %}
             <!-- item -->
             <div class="grid__item js-grid__item grid__item_fluid-6-fancy grid__item_fluid-2 grid__item_desktop-6 grid__item_tablet-6
-                    grid__item_mobile-12 {{ post.data.category }}">
+                    grid__item_mobile-12 {{ post.data.category | slugify }}">
                 <div class="figure-project" data-arts-hover-class="hover-zoom-underline">
                     <a
                         class="figure-project__wrapper-img js-arts-cursor-no-highlight js-arts-parallax"
