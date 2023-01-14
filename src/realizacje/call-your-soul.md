@@ -4,7 +4,9 @@ title: Studio masażu i terapii umysłu
 description: Strona internetowa dla studia masażu i terapii z umysłem. Indywidualny projekt, zaawansowane animacje i przejścia. Optymalizacja pod wyszukiwarki. Strona statyczna bez CMS'a.
 date: 2022-05-27
 author: Przemek
-thumbnail: /assets/img/mockups/soul.jpg
+thumbnail: /assets/img/mockups/soul-thumb.jpg
+imageMain: /assets/img/mockups/soul-img.jpg
+imageMobile: /assets/img/mockups/soul-mobile.jpg
 category: Strona internetowa
 ---
 

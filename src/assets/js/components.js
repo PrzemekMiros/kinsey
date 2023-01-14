@@ -143,8 +143,8 @@ if (typeof window.kinsey === 'undefined') {
 					overlayMenuOpen: 1.0,
 					overlayMenuClose: 1.5,
 					preloader: 1.0,
-					ajaxFlyingImageTransition: 1.5,
-					ajaxCurtainTransition: 1.5
+					ajaxFlyingImageTransition: 1.0,
+					ajaxCurtainTransition: 1.0
 				}
 			},
 			cursorFollower: {
@@ -160,11 +160,14 @@ if (typeof window.kinsey === 'undefined') {
 			},
 			smoothScroll: { // more info https://github.com/idiotWu/smooth-scrollbar/tree/develop/docs
 				enabled: true,
-				damping: 0.15,
+				damping: 0.08,
 				renderByPixels: true,
 				continuousScrolling: false,
 				plugins: {
 					edgeEasing: true,
+					disableScroll: {
+						direction: 'x'
+					}
 				}
 			},
 			mobileBarFix: {
@@ -206,7 +209,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 		setTimeout(() => {
 			window.kinsey.loading.finish();
-		}, 800);
+		}, 1200);
 	}
 
 });
@@ -221,7 +224,6 @@ function initComponents({
 	container = window.$pageWrapper,
 	scrollToHashElement = true
 }) {
-
 
 	const
 		$smoothScrollContainer = container.filter('.js-smooth-scroll'),
@@ -446,7 +448,6 @@ function initComponents({
 	if (scrollToHashElement) {
 		Scroll.scrollToAnchorFromHash();
 	}
-
 }
 
 /**

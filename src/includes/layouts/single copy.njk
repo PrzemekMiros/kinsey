@@ -2,43 +2,41 @@
 {% include "partials/header.njk" %}
 
 <section class="section section-masthead text-center pt-xlarge bg-light-1" data-arts-os-animation="true">
-    <div class="container-fluid">
+    <div class="container">
         <h1 class="xl section-masthead__heading d-inline-block my-0 arts-split-text js-arts-split-text js-transition-heading"
-            data-arts-split-text="lines,words,chars" data-arts-split-text-set="chars"
-            data-arts-split-text-set-direction="y" data-arts-split-text-set-distance="100%"
+            data-arts-split-text="lines" data-arts-split-text-set="lines"
             data-arts-split-text-overflow-wrap="lines">{{ client }}</h1>
-        <div class="section-masthead__info container text-center">
-            <div class="row justify-content-center mt-3" data-arts-os-animation="true"
-                data-arts-os-animation-name="animateText">
-                <div class="col-lg-8">
-                    <div class="section-masthead__properties arts-split-text js-arts-split-text"
-                        data-arts-split-text="words" data-arts-split-text-set="words"
-                        data-arts-split-text-overflow-wrap="words">
-                        <ul class="list-dots small">
-                            <li>Art Direction</li>
-                            <li>Branding</li>
-                            <li>Product Design</li>
-                            <li>Photography</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="section-masthead__subheading mt-3 arts-split-text js-arts-split-text"
+            data-arts-split-text="lines" data-arts-split-text-set="lines"
+            data-arts-split-text-overflow-wrap="lines">
+            <ul class="post-meta post-meta_mini">
+                <li><a href="#">{{ category }}</a>
+                    <div class="post-meta__divider section-masthead__meta-divider"></div>
+                </li>
+                <li><a href="#">2021</a></li>
+            </ul>
         </div>
     </div>
-    <div class="section-masthead__wrapper-content mt-small">
+    <div class="section-masthead__wrapper-content mt-5">
         <div class="section__content">
             <div class="container">
-                <div class="mask-reveal js-transition-img js-arts-parallax overflow" data-arts-parallax-factor-y="0.08">
-                    <div class="mask-reveal__layer mask-reveal__layer-1">
-                        <div class="mask-reveal__layer mask-reveal__layer-2">
-                            <div class="js-arts-parallax__scrub js-transition-img__transformed-el"><img
-                                    src="{{ imageMain | url }}" width="1280" height="1920" alt="alt" /></div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mask-reveal js-transition-img js-arts-parallax overflow"
+                            data-arts-parallax-factor-y="0.05">
+                            <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2">
+                                    <div class="js-arts-parallax__scrub js-transition-img__transformed-el"><img
+                                            src="{{ thumbnail | url }}" width="1920" height="1280" alt="alt" /></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section__bg top-offset top-offset_large js-transition-bg bg-light-2"></div>
+        <div class="section__bg top-offset top-offset_large js-transition-bg bg-light-2"
+            data-background-color="var(--color-light-2)"></div>
     </div>
 </section>
 
@@ -63,7 +61,7 @@
                             data-arts-os-animation="true" data-arts-os-animation-name="animateText"
                             data-arts-split-text="lines" data-arts-split-text-set="lines"
                             data-arts-split-text-overflow-wrap="lines">
-                            <div class="h4">Klient</div>
+                            <div class="h4">Client</div>
                             <p class="mt-2">{{ client }}</p>
                         </div>
                     </div>
@@ -81,8 +79,8 @@
                             data-arts-os-animation="true" data-arts-os-animation-name="animateText"
                             data-arts-split-text="lines" data-arts-split-text-set="lines"
                             data-arts-split-text-overflow-wrap="lines">
-                            <div class="h4">Technologie</div>
-                            <p class="mt-2">HTML CSS JS<br />Wordpress
+                            <div class="h4">Designers</div>
+                            <p class="mt-2">Cathy Porras<br />Reynaldo Newman<br />Anabel Bowling<br />
                             </p>
                         </div>
                     </div>
@@ -108,8 +106,8 @@
                     data-arts-os-animation-params="{direction: 'up'}" data-arts-parallax-factor-y="0.05"><a
                         class="hover-zoom figure-image__link underline-hover" data-arts-cursor="data-arts-cursor"
                         data-arts-cursor-scale="1.6" data-arts-cursor-icon-class="material-icons add"
-                        data-arts-cursor-hide-native="true" href="{{ imageMobile | url }}" data-size="510x765"
-                        data-title="">
+                        data-arts-cursor-hide-native="true" href="{{ imageMobile | url }}"
+                        data-size="510x765" data-title="">
                         <div class="mask-reveal__layer mask-reveal__layer-1">
                             <div class="mask-reveal__layer mask-reveal__layer-2">
                                 <div class="hover-zoom__inner">
@@ -133,14 +131,16 @@
                     data-arts-os-animation-params="{direction: 'up'}" data-arts-parallax-factor-y="0.1"><a
                         class="hover-zoom figure-image__link underline-hover" data-arts-cursor="data-arts-cursor"
                         data-arts-cursor-scale="1.6" data-arts-cursor-icon-class="material-icons add"
-                        data-arts-cursor-hide-native="true" href="{{ imageMain | url }}" data-size="1020x664" data-title="">
+                        data-arts-cursor-hide-native="true" href="#"
+                        data-size="1020x664" data-title="">
                         <div class="mask-reveal__layer mask-reveal__layer-1">
                             <div class="mask-reveal__layer mask-reveal__layer-2">
                                 <div class="hover-zoom__inner">
                                     <div class="js-arts-parallax__scrub w-100 h-100">
                                         <div class="lazy-wrapper">
-                                            <div class="lazy"><img class="hover-zoom__zoom" src="#" data-src="{{ imageMain | url }}"
-                                                    width="510" height="332" alt="" /></div>
+                                            <div class="lazy"><img class="hover-zoom__zoom" src="#"
+                                                    data-src="#" width="510" height="332"
+                                                    alt="" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -156,16 +156,16 @@
                     data-arts-os-animation-params="{direction: 'up'}" data-arts-parallax-factor-y="0.1"><a
                         class="hover-zoom figure-image__link underline-hover" data-arts-cursor="data-arts-cursor"
                         data-arts-cursor-scale="1.6" data-arts-cursor-icon-class="material-icons add"
-                        data-arts-cursor-hide-native="true" href="{{ thumbnail | url }}" data-size="1020x664"
-                        data-title="">
+                        data-arts-cursor-hide-native="true" href="{{ thumbnail | url }}"
+                        data-size="1020x664" data-title="">
                         <div class="mask-reveal__layer mask-reveal__layer-1">
                             <div class="mask-reveal__layer mask-reveal__layer-2">
                                 <div class="hover-zoom__inner">
                                     <div class="js-arts-parallax__scrub w-100 h-100">
                                         <div class="lazy-wrapper">
                                             <div class="lazy"><img class="hover-zoom__zoom" src="#"
-                                                    data-src="{{ thumbnail | url }}" width="510" height="332" alt="" />
-                                            </div>
+                                                    data-src="{{ thumbnail | url }}" width="510" height="332"
+                                                    alt="" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -176,6 +176,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="section section-content pb-large bg-light-2 position-relative">
     <div class="container">
@@ -268,9 +269,6 @@
 </section>
 
 <!-- section NAV PROJECTS -->
-{%- if collections.realizacje %}
-{%- set nextPost = collections.realizacje | getNextCollectionItem(page) %}
-{%- if nextPost %}
 <section class="container-fluid section section-nav-projects section-fullheight text-center bg-light-1"
     data-arts-fixed-reveal="true" data-arts-fixed-reveal-from="-33vh"
     data-arts-fixed-reveal-disabled-at="max-width: 767px" data-arts-prefetch-enabled="true">
@@ -278,34 +276,38 @@
     <div class="section-nav-projects__inner container section-fullheight__inner">
         <!-- header -->
         <header class="section-nav-projects__header" data-arts-cursor="data-arts-cursor"
-            data-arts-cursor-hide-native="true" data-arts-cursor-label="View Next" data-arts-cursor-scale="2.2"
-            data-arts-cursor-color="#fff" data-arts-cursor-background-color="#3f85fe">
-
+            data-arts-cursor-hide-native="true" data-arts-cursor-label="Kolejna" data-arts-cursor-scale="2.2"
+            data-arts-cursor-color="#fff" data-arts-cursor-background-color="var(--color-accent-1)">
+            {%- if collections.realizacje %}
+            {%- set nextPost = collections.realizacje | getNextCollectionItem(page) %}
+            {%- if nextPost %}
             <a class="section-nav-projects__link pointer-events-none js-arts-cursor-no-highlight"
                 href="{{ nextPost.url | url }}" data-pjax-link="autoScrollNext">
                 <!-- helping labels -->
                 <div class="section-nav-projects__subheading small mb-1"><span
-                        class="section-nav-projects__label section-nav-projects__label_next">Kolejna realizacja</span><span
+                        class="section-nav-projects__label section-nav-projects__label_next">Kolejna
+                        realizacja</span><span
                         class="section-nav-projects__label section-nav-projects__label_scroll">Przewiń w dół</span>
                 </div>
                 <!-- - helping labels -->
                 <h2 class="section-nav-projects__heading h1 my-0 section-nav-projects__progress-underline underline js-transition-heading arts-split-text js-arts-split-text"
                     data-arts-split-text="lines,words,chars">{{ nextPost.data.client }}</h2>
             </a>
-
+            {% endif %}
+            {%- endif %}
         </header>
         <!-- - header-->
         <!-- next image-->
         <div class="section-nav-projects__next-image mt-xsmall mx-auto js-transition-img" data-arts-cursor="true"
             data-arts-cursor-hide-native="true" data-arts-cursor-label="Kolejna" data-arts-cursor-scale="2.2"
-            data-arts-cursor-color="#fff" data-arts-cursor-background-color="#3f85fe">
+            data-arts-cursor-color="#fff" data-arts-cursor-background-color="var(--color-accent-1)">
             <div class="section-nav-projects__wrapper-image h-100">
                 <div class="js-arts-parallax overflow h-100" data-arts-parallax="true"
-                    data-arts-parallax-factor-y="0.08">
+                    data-arts-parallax-factor-y="0.15">
                     <div class="js-arts-parallax__scrub js-transition-img__transformed-el">
                         <div class="lazy-wrapper">
-                            <div class="lazy"><img src="#" data-src="{{ nextPost.data.imageMain }}" width="1280"
-                                    height="1920" alt="" /></div>
+                            <div class="lazy"><img src="#" data-src="{{ nextPost.data.thumbnail }}" width="1920"
+                                    height="1280" alt="" /></div>
                         </div>
                     </div>
                 </div>
@@ -318,8 +320,6 @@
     <div class="section-nav-projects__spacer d-md-block d-none"></div>
     <!-- - spacing element-->
 </section>
-{% endif %}
-{%- endif %}
 <!-- - section NAV PROJECTS -->
 
 {% include "partials/footer.njk" %}

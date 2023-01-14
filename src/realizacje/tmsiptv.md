@@ -4,7 +4,9 @@ title: Operator telewizji kablowej
 description: Strona wizytówka dla operatora telewizji kablowej. Statyczna strona w HTML, CSS i JS. 
 date: 2021-01-23
 author: Przemek Miros
-thumbnail: /assets/img/mockups/tms.jpg
+thumbnail: /assets/img/mockups/tms-thumb.jpg
+imageMain: /assets/img/mockups/tms-img.jpg
+imageMobile: /assets/img/mockups/tms-mobile.jpg
 category: Strona internetowa
 ---
 

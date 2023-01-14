@@ -1294,7 +1294,7 @@ a:hover {
  * 16. Hover Zoom Underline
  * ======================================================================!*/
 .hover-zoom-underline .hover-zoom__zoom {
-  transform: scale(1);
+  transform: scale(.95);
 }
 .hover-zoom-underline .hover-zoom__inner {
   transform: scale(1.05);
@@ -1585,7 +1585,7 @@ a:hover {
   display: block;
 }
 .figure-project__wrapper-img img {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 /*!========================================================================
@@ -3572,7 +3572,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 }
 @media screen and (min-width: 320px) {
   .top-offset.top-offset_large {
-    top: calc(1 * (var(--distance-min-large) * 1px + (var(--distance-max-large) - var(--distance-min-large)) * ((100vw - 320px) / 1600)));
+    top: calc(1 * (var(--distance-min-large) * 1px + (var(--distance-max-large) - var(--distance-min-large)) * ((100vw - 320px) / 1000)));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -6245,12 +6245,14 @@ body.elementor-editor-active [data-arts-os-animation] {
   display: none;
 }
 .slider img {
+  display: block;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
   width: 100%;
+  height: auto
 }
 
 .slider__wrapper-button {
@@ -9723,7 +9725,7 @@ select {
 
 .section-nav-projects__next-image {
   width: 100%;
-  height: 30vh;
+  height: 45vh;
 }
 .section-nav-projects__next-image .lazy-wrapper {
   max-width: 100% !important;
