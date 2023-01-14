@@ -7,6 +7,8 @@ author: Przemek Miros
 thumbnail: /assets/img/mockups/staltom-thumb.jpg
 imageMain: /assets/img/mockups/staltom-img.jpg
 imageMobile: /assets/img/mockups/staltom-mobile.jpg
+imageGridOne: /assets/img/mockups/staltom-1.jpg
+imageGridTwo: /assets/img/mockups/staltom-2.jpg
 category: Strona internetowa
 ---
 

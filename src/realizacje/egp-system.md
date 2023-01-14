@@ -7,6 +7,8 @@ author: Przemek
 thumbnail: /assets/img/mockups/egp-thumb.jpg
 imageMain: /assets/img/mockups/egp-img.jpg
 imageMobile: /assets/img/mockups/egp-mobile.jpg
+imageGridOne: /assets/img/mockups/egp-1.jpg
+imageGridTwo: /assets/img/mockups/egp-2.jpg
 category: Sklep internetowy
 ---
 

@@ -7,6 +7,8 @@ author: Przemek Miros
 thumbnail: /assets/img/mockups/konsultacje-thumb.jpg
 imageMain: /assets/img/mockups/konsultacje-img.jpg
 imageMobile: /assets/img/mockups/konsultacje-mobile.jpg
+imageGridOne: /assets/img/mockups/konsultacje-1.jpg
+imageGridTwo: /assets/img/mockups/konsultacje-2.jpg
 category: Serwis internetowy
 ---
 

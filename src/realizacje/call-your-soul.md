@@ -7,6 +7,8 @@ author: Przemek
 thumbnail: /assets/img/mockups/soul-thumb.jpg
 imageMain: /assets/img/mockups/soul-img.jpg
 imageMobile: /assets/img/mockups/soul-mobile.jpg
+imageGridOne: /assets/img/mockups/soul-1.jpg
+imageGridTwo: /assets/img/mockups/soul-2.jpg
 category: Strona internetowa
 ---
 

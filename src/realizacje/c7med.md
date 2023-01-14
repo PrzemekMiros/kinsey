@@ -7,6 +7,8 @@ author: Przemek Miros
 thumbnail: /assets/img/mockups/c7med-thumb.jpg
 imageMain: /assets/img/mockups/c7med-img.jpg
 imageMobile: /assets/img/mockups/c7med-mobile.jpg
+imageGridOne: /assets/img/mockups/c7med-1.jpg
+imageGridTwo: /assets/img/mockups/c7med-2.jpg
 category: Strona internetowa
 ---
 

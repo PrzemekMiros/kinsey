@@ -7,6 +7,8 @@ author: Przemek
 thumbnail: /assets/img/mockups/koleje-thumb.jpg
 imageMain: /assets/img/mockups/koleje-img.jpg
 imageMobile: /assets/img/mockups/koleje-mobile.jpg
+imageGridOne: /assets/img/mockups/koleje-1.jpg
+imageGridTwo: /assets/img/mockups/koleje-2.jpg
 category: Strona internetowa
 ---
 

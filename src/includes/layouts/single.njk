@@ -15,10 +15,10 @@
                         data-arts-split-text="words" data-arts-split-text-set="words"
                         data-arts-split-text-overflow-wrap="words">
                         <ul class="list-dots small">
-                            <li>Art Direction</li>
-                            <li>Branding</li>
-                            <li>Product Design</li>
-                            <li>Photography</li>
+                            <li>{{ category }}</li>
+                            <li>Projekt graficzny</li>
+                            <li>Kodowanie</li>
+                            <li>Wdrożenie</li>
                         </ul>
                     </div>
                 </div>
@@ -133,13 +133,13 @@
                     data-arts-os-animation-params="{direction: 'up'}" data-arts-parallax-factor-y="0.1"><a
                         class="hover-zoom figure-image__link underline-hover" data-arts-cursor="data-arts-cursor"
                         data-arts-cursor-scale="1.6" data-arts-cursor-icon-class="material-icons add"
-                        data-arts-cursor-hide-native="true" href="{{ imageMain | url }}" data-size="1020x664" data-title="">
+                        data-arts-cursor-hide-native="true" href="{{ imageGridOne | url }}" data-size="1020x664" data-title="">
                         <div class="mask-reveal__layer mask-reveal__layer-1">
                             <div class="mask-reveal__layer mask-reveal__layer-2">
                                 <div class="hover-zoom__inner">
                                     <div class="js-arts-parallax__scrub w-100 h-100">
                                         <div class="lazy-wrapper">
-                                            <div class="lazy"><img class="hover-zoom__zoom" src="#" data-src="{{ imageMain | url }}"
+                                            <div class="lazy"><img class="hover-zoom__zoom" src="#" data-src="{{ imageGridOne | url }}"
                                                     width="510" height="332" alt="" /></div>
                                         </div>
                                     </div>
@@ -156,7 +156,7 @@
                     data-arts-os-animation-params="{direction: 'up'}" data-arts-parallax-factor-y="0.1"><a
                         class="hover-zoom figure-image__link underline-hover" data-arts-cursor="data-arts-cursor"
                         data-arts-cursor-scale="1.6" data-arts-cursor-icon-class="material-icons add"
-                        data-arts-cursor-hide-native="true" href="{{ thumbnail | url }}" data-size="1020x664"
+                        data-arts-cursor-hide-native="true" href="{{ imageGridTwo | url }}" data-size="1020x664"
                         data-title="">
                         <div class="mask-reveal__layer mask-reveal__layer-1">
                             <div class="mask-reveal__layer mask-reveal__layer-2">
@@ -164,7 +164,7 @@
                                     <div class="js-arts-parallax__scrub w-100 h-100">
                                         <div class="lazy-wrapper">
                                             <div class="lazy"><img class="hover-zoom__zoom" src="#"
-                                                    data-src="{{ thumbnail | url }}" width="510" height="332" alt="" />
+                                                    data-src="{{ imageGridTwo | url }}" width="510" height="332" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -278,7 +278,7 @@
     <div class="section-nav-projects__inner container section-fullheight__inner">
         <!-- header -->
         <header class="section-nav-projects__header" data-arts-cursor="data-arts-cursor"
-            data-arts-cursor-hide-native="true" data-arts-cursor-label="View Next" data-arts-cursor-scale="2.2"
+            data-arts-cursor-hide-native="true" data-arts-cursor-label="Kolejna" data-arts-cursor-scale="2.2"
             data-arts-cursor-color="#fff" data-arts-cursor-background-color="#3f85fe">
 
             <a class="section-nav-projects__link pointer-events-none js-arts-cursor-no-highlight"
@@ -322,5 +322,4 @@
 {%- endif %}
 <!-- - section NAV PROJECTS -->
 
-{% include "partials/footer.njk" %}
 {% include "partials/foot.njk" %}

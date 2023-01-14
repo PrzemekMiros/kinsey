@@ -7,6 +7,8 @@ author: Przemek Miros
 thumbnail: /assets/img/mockups/master-thumb.jpg
 imageMain: /assets/img/mockups/master-img.jpg
 imageMobile: /assets/img/mockups/master-mobile.jpg
+imageGridOne: /assets/img/mockups/master-1.jpg
+imageGridTwo: /assets/img/mockups/master-2.jpg
 category: Landing page
 ---
 

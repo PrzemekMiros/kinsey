@@ -7,6 +7,8 @@ author: Przemek
 thumbnail: /assets/img/mockups/bianca-thumb.jpg
 imageMain: /assets/img/mockups/bianca-img.jpg
 imageMobile: /assets/img/mockups/bianca-mobile.jpg
+imageGridOne: /assets/img/mockups/bianca-1.jpg
+imageGridTwo: /assets/img/mockups/bianca-2.jpg
 category: Landing page
 ---
 
