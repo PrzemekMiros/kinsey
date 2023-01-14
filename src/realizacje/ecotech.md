@@ -10,6 +10,7 @@ imageMobile: /assets/img/mockups/ecotech-mobile.jpg
 imageGridOne: /assets/img/mockups/ecotech-1.jpg
 imageGridTwo: /assets/img/mockups/ecotech-2.jpg
 category: Strona internetowa
+link: https://ecotechgroup.pl/
 ---
 
 ## Dystrybutor rur stalowych

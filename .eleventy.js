@@ -1,3 +1,4 @@
+const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/css");
@@ -31,6 +32,19 @@ module.exports = function (eleventyConfig) {
       }
     }
   });
+
+
+  // Date
+
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+        zone: "Europe/Amsterdam",
+    }).setLocale('pl').toISODate();
+});
+
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  
+  eleventyConfig.addFilter('dateDisplay', require('./src/filters/date-display.js'));
   
   
     return {

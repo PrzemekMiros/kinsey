@@ -10,6 +10,7 @@ imageMobile: /assets/img/mockups/bianca-mobile.jpg
 imageGridOne: /assets/img/mockups/bianca-1.jpg
 imageGridTwo: /assets/img/mockups/bianca-2.jpg
 category: Landing page
+link: https://pizzeriabianca.pl/
 ---
 
 ## Pizzeria włoska z dostawą

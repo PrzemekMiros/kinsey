@@ -10,6 +10,7 @@ imageMobile: /assets/img/mockups/staltom-mobile.jpg
 imageGridOne: /assets/img/mockups/staltom-1.jpg
 imageGridTwo: /assets/img/mockups/staltom-2.jpg
 category: Strona internetowa
+link: https://staltom.com.pl/
 ---
 
 ## Producent konstrukcji stalowych

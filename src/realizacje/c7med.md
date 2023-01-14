@@ -10,6 +10,7 @@ imageMobile: /assets/img/mockups/c7med-mobile.jpg
 imageGridOne: /assets/img/mockups/c7med-1.jpg
 imageGridTwo: /assets/img/mockups/c7med-2.jpg
 category: Strona internetowa
+link: https://c7med.pl/
 ---
 
 ## Centrum Rehabilitacji

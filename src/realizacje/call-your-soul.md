@@ -10,6 +10,7 @@ imageMobile: /assets/img/mockups/soul-mobile.jpg
 imageGridOne: /assets/img/mockups/soul-1.jpg
 imageGridTwo: /assets/img/mockups/soul-2.jpg
 category: Strona internetowa
+link: https://callyoursoul.pl/
 ---
 
 ## Salon masażu i terapii z umysłem

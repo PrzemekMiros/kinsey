@@ -10,6 +10,7 @@ imageMobile: /assets/img/mockups/koleje-mobile.jpg
 imageGridOne: /assets/img/mockups/koleje-1.jpg
 imageGridTwo: /assets/img/mockups/koleje-2.jpg
 category: Strona internetowa
+link: https://ecotechgroup.com.pl/
 ---
 
 ## Kolejowe roboty budowlane

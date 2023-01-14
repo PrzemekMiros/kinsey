@@ -10,6 +10,7 @@ imageMobile: /assets/img/mockups/konsultacje-mobile.jpg
 imageGridOne: /assets/img/mockups/konsultacje-1.jpg
 imageGridTwo: /assets/img/mockups/konsultacje-2.jpg
 category: Serwis internetowy
+link: https://twojekonsultacje.pl/
 ---
 
 ## Platforma konsultingowa

@@ -10,6 +10,7 @@ imageMobile: /assets/img/mockups/business-mobile.jpg
 imageGridOne: /assets/img/mockups/business-1.jpg
 imageGridTwo: /assets/img/mockups/business-2.jpg
 category: Serwis internetowy
+link: https://businesswomanlife.pl/
 ---
 
 ## Portal kobiet biznesu
