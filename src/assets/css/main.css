@@ -142,6 +142,7 @@ body {
   min-width: 320px;
   font-family: var(--font-primary);
   line-height: var(--paragraph-line-height);
+  background-color: var(--color-light-1);
   color: var(--paragraph-color-dark);
   font-size: 100%;
   word-wrap: break-word;
@@ -207,7 +208,6 @@ a:hover {
 
 #page-wrapper {
   overflow-x: hidden;
-  background-color: #fff;
 }
 
 @media screen and (max-width: 991px) {
@@ -6823,7 +6823,7 @@ h4, h5, h6 {
 
 h1, .h1 {
   font-family: var(--font-primary);
-  font-weight: 700;
+  font-weight: 800;
   line-height: var(--h1-line-height);
   font-size: calc(var(--h1-min-font-size) * 1px);
   color: var(--h1-color-dark);
