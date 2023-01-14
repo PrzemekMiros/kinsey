@@ -4843,7 +4843,7 @@ const defaults = {
 		magnetic: '[data-arts-cursor-magnetic]',
 		highlight: 'a:not(a[data-arts-cursor]):not(.social__item a):not(a.page-numbers):not(.js-arts-cursor-no-highlight), .js-arts-cursor-highlight, button:not(button[data-arts-cursor])',
 		hideNative: '[data-arts-cursor-hide-native]',
-		hideScaleMagnetic: '.slider__dot, .social__item, a.page-numbers',
+		hideScaleMagnetic: '.slider__dot, a.page-numbers',
 	},
 	elements: {
 		follower: '.js-arts-cursor__follower',
