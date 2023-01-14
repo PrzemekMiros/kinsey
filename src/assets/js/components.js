@@ -156,7 +156,7 @@ if (typeof window.kinsey === 'undefined') {
 					distance: 45
 				},
 				trailing: 8,
-				animationDuration: 0.2
+				animationDuration: 0.25
 			},
 			smoothScroll: { // more info https://github.com/idiotWu/smooth-scrollbar/tree/develop/docs
 				enabled: true,

@@ -4,7 +4,7 @@ title: Platforma konsultingowa
 description: Platforma konsultingowa. Strona wykonana według projektu dostarczonego przez klienta, zakodowany dedykowany motyw pod Wordpressa. Rejestracja, komentowanie i sondy.
 date: 2022-02-20
 author: Przemek Miros
-thumbnail: /assets/img/mockups/m-egp.png
+thumbnail: /assets/img/mockups/konsultacje.jpg
 category: Serwis internetowy
 ---
 

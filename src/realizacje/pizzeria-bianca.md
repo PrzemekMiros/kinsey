@@ -4,7 +4,7 @@ title: Pizzeria włoska z dostawą
 description: Projekt graficzny i kodowanie - HTML, CSS, JS. Optymalizacja pod SEO i pozycjonowanie. System zamówień jedzenia online i zaawansowane narzędzia analityczne.
 date: 2022-08-07
 author: Przemek
-thumbnail: /assets/img/mockups/m-egp.png
+thumbnail: /assets/img/mockups/bianca.jpg
 category: Landing page
 ---
 

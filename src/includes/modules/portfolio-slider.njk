@@ -14,7 +14,7 @@
                 data-touch-ratio="2">
                 <div
                     class="swiper-wrapper">
-                    {% for post in collections.realizacje.slice(0,9) %}
+                    {% for post in collections.realizacje %}
                     <!-- item -->
                     <div class="swiper-slide slider-images__slide overflow">
                         <div class="row flex-md-row-reverse">
@@ -78,7 +78,7 @@
                 data-arts-os-animation-name="animateJump">
                 <div
                     class="swiper-wrapper">
-                    {% for post in collections.realizacje.slice(0,9) %}
+                    {% for post in collections.realizacje %}
                     <!-- caption -->
                     <div class="swiper-slide pt-3 js-arts-cursor-highlight">
                         <div class="slider-images__caption h6">01&nbsp;&nbsp;/&nbsp;&nbsp;{{ post.data.title }}</div>
@@ -90,7 +90,7 @@
             <!-- - slider CAPTIONS -->
             <!-- slider ARROWS -->
             <div
-                class="slider__arrow slider__arrow_absolute slider__arrow_left js-slider__arrow-prev"
+                class="slider__arrow slider__arrow_absolute slider__arrow_left js-slider__arrow-prev d-none d-md-block"
                 data-arts-os-animation="true"
                 data-arts-os-animation-name="animateJump">
                 <div
@@ -101,7 +101,7 @@
                     data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
             </div>
             <div
-                class="slider__arrow slider__arrow_absolute slider__arrow_right js-slider__arrow-next"
+                class="slider__arrow slider__arrow_absolute slider__arrow_right js-slider__arrow-next d-none d-md-block"
                 data-arts-os-animation="true"
                 data-arts-os-animation-name="animateJump">
                 <div

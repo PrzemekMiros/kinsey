@@ -4,7 +4,7 @@ title: Dystrybutor rur stalowych
 description: Wykonana wedłu dostarczonego projektu graficznego. Oparta na systemie zarządzania treścią Wordpress. Katalog produktów z intuicyjna wyszukiwarką i filtrowaniem. 
 date: 2023-01-19
 author: Przemek
-thumbnail: /assets/img/mockups/m-eco.png
+thumbnail: /assets/img/mockups/ecotech.jpg
 category: Strona internetowa
 ---
 

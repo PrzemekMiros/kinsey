@@ -430,6 +430,67 @@ a:hover {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark Colors */
+  --color-dark-1: #ffffff;
+  --color-dark-2: #fafafa;
+  --color-dark-3: #f8f8f8;
+  --color-dark-4: #f2f2ed;
+  /* Light Colors */
+  --color-light-1: #070707;
+  --color-light-2: #181818;
+  --color-light-3: #333333;
+  --color-light-4: #555555;
+  --color-gray-1: #b0b0b0;
+  --color-gray-2: #cccccc;
+  --color-gray-3: #888888;
+  --color-gray-4: #e8e8e8;
+  /* Accents Projects Colors */
+  --color-accent-1: #3f85fe;
+  --color-accent-2: #ff2828;
+  /* Borders Colors */
+  --color-border-dark: rgba(136, 136, 136, .3);
+  --color-border-light: rgba(136, 136, 136, .3);
+  /* XXL heading */
+  --xxl-color-dark: #fff;
+  --xxl-color-light: #111;
+  /* XL heading */
+  --xl-color-dark: #fff;
+  --xl-color-light: #111;
+  /* h1 heading */
+  --h1-color-dark: #fff;
+  --h1-color-light: #111;
+  /* h2 heading */
+  --h2-color-dark: #fff;
+  --h2-color-light: #111;
+  /* h3 heading */
+  --h3-color-dark: #fff;
+  --h3-color-light: #111;
+  /* h4 heading */
+  --h4-color-dark: #fff;
+  --h4-color-light: #111;
+  /* h5 heading */
+  --h5-color-dark: #fff;
+  --h5-color-light: #111;
+  /* h6 heading */
+  --h6-color-dark: #fff;
+  --h6-color-light: #111;
+  /* Subheading */
+  --subheading-color-dark: #b0b0b0;
+  --subheading-color-light: #555;
+  /* Paragraph */
+  --paragraph-color-dark: #fff;
+  --paragraph-color-light: #555;
+  /* Blockquote */
+  --blockquote-color-dark: #fff;
+  --blockquote-color-light: #555;
+  /* Dropcap */
+  --dropcap-color-dark: #fff;
+  --dropcap-color-light: #555;
+  }
+}
+
 /*!========================================================================
  * 1. Bootstrap
  * ======================================================================!*/
