@@ -6,9 +6,9 @@ date: 2022-11-15
 author: Przemek
 thumbnail: /assets/img/mockups/business-thumb.jpg
 imageMain: /assets/img/mockups/business-img.jpg
-imageMobile: /assets/img/mockups/business-mobile.jpg
-imageGridOne: /assets/img/mockups/business-1.jpg
-imageGridTwo: /assets/img/mockups/business-2.jpg
+imageMobile: /assets/img/mockups/longscroll-mobile.jpg
+imageGridOne: /assets/img/mockups/longscroll-1.jpg
+imageGridTwo: /assets/img/mockups/longscroll-2.jpg
 category: Serwis internetowy
 link: https://businesswomanlife.pl/
 ---
