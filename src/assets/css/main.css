@@ -439,7 +439,7 @@ a:hover {
   --color-dark-4: #f2f2ed;
   /* Light Colors */
   --color-light-1: #070707;
-  --color-light-2: #181818;
+  --color-light-2: #0e0d0d;
   --color-light-3: #333333;
   --color-light-4: #555555;
   --color-gray-1: #b0b0b0;
@@ -10657,7 +10657,7 @@ select {
 
 @media(min-width:767px) {
   .gradient-bg {
-    top: calc(8% - 2em);
+    top: calc(8% - 3em);
     width: 65%;
   }
   .gradient-realisation {
