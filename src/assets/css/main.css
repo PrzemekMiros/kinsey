@@ -10585,7 +10585,7 @@ select {
 
 .icon {
   position: absolute;
-  top: 50%;
+  top: calc(50% + .6em);
   right: 0;
   width: 13px;
   height: 2px;
@@ -10636,4 +10636,34 @@ select {
   width: 1px;
   height: 100%;
   background: var(--color-border-dark);
+}
+
+
+.gradient-bg {
+  position: absolute;
+  top: -1%;
+  left: 45%;
+  width: 58%;
+  height: 100%;
+  z-index: -1;
+}
+
+.gradient-realisation {
+  top: -2.2%;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+@media(min-width:767px) {
+  .gradient-bg {
+    top: calc(8% - 2em);
+    width: 65%;
+  }
+  .gradient-realisation {
+    top: -5%;
+    left: 50%;
+    width: 50%;
+    height: 100%
+  }
 }

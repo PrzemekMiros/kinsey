@@ -1,5 +1,13 @@
 <section class="section section-grid pt-xlarge pb-xlarge">
-    <div class="container">
+    <div class="container position-relative">
+        <div class="gradient-bg gradient-realisation">
+            <div
+            class="section-content__content content"
+            data-arts-os-animation="true"
+            data-arts-os-animation-name="animateJump">
+               <img src="/assets/img/general/gradient-2.png" alt="">
+            </div>
+        </div>
         <div class="row align-items-center mb-medium">
             <div class="col-lg-8">
                 <h1
@@ -13,13 +21,13 @@
             </div>
         </div>
         <div
-            class="grid js-grid grid_fluid-2 grid_fancy">
+            class="grid js-grid grid_fluid-3 grid_fancy">
             <!-- sizer -->
-            <div class="grid__item grid__sizer js-grid__sizer grid__item_fluid-6-fancy grid__item_fluid-2 grid__item_desktop-6
+            <div class="grid__item grid__sizer js-grid__sizer grid__item_fluid-6-fancy grid__item_fluid-3 grid__item_desktop-6
                 grid__item_tablet-6 grid__item_mobile-12 "></div>
             {% for post in collections.realizacje %}
             <!-- item -->
-            <div class="grid__item js-grid__item grid__item_fluid-6-fancy grid__item_fluid-2 grid__item_desktop-6 grid__item_tablet-6
+            <div class="grid__item js-grid__item grid__item_fluid-6-fancy grid__item_fluid-3 grid__item_desktop-6 grid__item_tablet-6
                     grid__item_mobile-12 {{ post.data.category | slugify }}">
                 <div class="figure-project" data-arts-hover-class="hover-zoom-underline">
                     <a
