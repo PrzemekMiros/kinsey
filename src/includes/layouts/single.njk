@@ -1,12 +1,8 @@
 {% include "partials/head.njk" %}
 {% include "partials/header.njk" %}
 
-<section class="section section-masthead text-center pt-xlarge bg-light-1" data-arts-os-animation="true">
+<section class="section section-masthead text-center pt-large bg-light-1" data-arts-os-animation="true">
     <div class="container-fluid">
-        <h1 class="h1 section-masthead__heading d-inline-block my-0 arts-split-text js-arts-split-text js-transition-heading"
-            data-arts-split-text="lines,words,chars" data-arts-split-text-set="chars"
-            data-arts-split-text-set-direction="y" data-arts-split-text-set-distance="100%"
-            data-arts-split-text-overflow-wrap="lines">{{ client }}</h1>
         <div class="section-masthead__info container text-center">
             <div class="row justify-content-center mt-3" data-arts-os-animation="true"
                 data-arts-os-animation-name="animateText">
@@ -23,8 +19,12 @@
                 </div>
             </div>
         </div>
+        <h1 class="h1 section-masthead__heading d-inline-block mt-3 mb-4 arts-split-text js-arts-split-text js-transition-heading"
+            data-arts-split-text="lines,words,chars" data-arts-split-text-set="chars"
+            data-arts-split-text-set-direction="y" data-arts-split-text-set-distance="100%"
+            data-arts-split-text-overflow-wrap="lines">{{ client }}</h1>
     </div>
-    <div class="section-masthead__wrapper-content mt-small">
+    <div class="section-masthead__wrapper-content">
         <div class="section__content">
             <div class="container">
                 <div class="mask-reveal js-transition-img js-arts-parallax overflow" data-arts-parallax-factor-y="0.08">

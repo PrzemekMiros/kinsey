@@ -5322,8 +5322,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   border-radius: 50%;
   background-color: var(--color-gray-2);
   vertical-align: middle;
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  margin-left: 2em;
+  margin-right: 2em;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -8941,6 +8941,9 @@ select {
 }
 
 @media screen and (max-width: 991px) {
+  .header {
+    padding-top: 25px;
+  }
   .js-header-sticky {
     background-color: var(--color-light-1);
   }
