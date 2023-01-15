@@ -1,9 +1,9 @@
-<section class="section section-slider-images pb-xlarge">
+<section class="section section-slider-images pb-large">
   <div class="container">
     <div class="slider slider-images js-slider-images text-center">
       <div class="slider-images__slider swiper-container js-slider-images__slider" 
       data-autoplay-enabled="true"
-        data-autoplay-delay="6000" 
+        data-autoplay-delay="3000" 
         data-centered-slides="false" 
         data-keyboard-enabled="true" 
         data-touch-ratio="1">
@@ -11,6 +11,7 @@
           {% for post in collections.realizacje %}
           <!-- item -->
           <div class="swiper-slide slider-images__slide overflow">
+            <a href="{{ post.url }}" title="{{ post.data.client }}">
             <div class="mask-reveal js-arts-parallax overflow" data-arts-parallax-factor-y="0.05"
               data-arts-os-animation="true" data-arts-os-animation-name="animateMask"
               data-arts-os-animation-params="{direction: 'up'}">
@@ -23,6 +24,7 @@
                 </div>
               </div>
             </div>
+            </a>
           </div>
           {% endfor %}
         </div>
